@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+    <ListView
+        android:id="@+id/solsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nb_sols"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/weatherTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</FrameLayout>

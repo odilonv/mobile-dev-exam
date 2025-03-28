@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Exam</string>
+    <string name="nb_sols">NB SOLS :</string>
+    <string name="android_logo">Android Logo</string>
+    <string name="which_weather_on_mars">Quelle météo sur Mars ?</string>
+    <string name="show_history">Voir l\'historique</string>
+    <string name="control">Diriger</string>
+    <string name="start">DÉMARRER</string>
+    <string name="front">AVANT</string>
+    <string name="left">GAUCHE</string>
+    <string name="right">DROITE</string>
+    <string name="sol_number_format">Sol n°%1$s</string>
+    <string name="temperature_format">Température avg : %1$.2f°C min : %2$.2f°C max : %3$.2f°C</string>
+    <string name="pressure_format">Pression avg : %1$.2f Pa min : %2$.2f Pa max : %3$.2f Pa</string>
 </resources>
